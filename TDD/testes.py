@@ -14,6 +14,7 @@ class TestesBasicos(unittest.TestCase):
     #Comando para nomes fora do padrão em métodos:
     #   python -m unittest -v modulo.classe.metodo
     def test_soma(self):
+        #assert 1 + 2 == 2, "Resultado não corresponde!" #Comando built-in (nativo) do Python
         self.assertEqual(1+2, 3, "Resultado não corresponde!")
 
 #unittest.main() fornece uma interface de linha de comando para o script de teste.
