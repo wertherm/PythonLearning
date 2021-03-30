@@ -21,3 +21,11 @@ class TestesBasicos(unittest.TestCase):
 #Esta linha não funciona se executar este código como um módulo, instanciando as classes.
 if __name__ == "__main__":
     unittest.main()
+
+#Serviços vs. Objetos:
+#Os serviços tendem a ser mais fáceis de trabalhar devido à separação de dados e comportamento.
+#Manter os dados separados facilita o teste de unidade de seus serviços.
+#Assim não precisa desenvolver uma tonelada de acoplamento temporal em seus serviços, pois eles geralmente são sem estado.
+#O teste transforma a entrada de dados e a saída de dados.
+
+#Testes na camada de apresentação são muito custosos, pois existe um forte acoplamento entre estados e comportamentos.
