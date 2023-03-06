@@ -10,6 +10,7 @@
 #Frameworks, tools, libraries
 #https://github.com/atinfo/awesome-test-automation/blob/master/python-test-automation.md
 
+#Observações:
 #Testes transformam a entrada e a saída de dados.
 #Testes na camada de apresentação são muito custosos, pois existe um forte acoplamento entre estados e comportamentos.
 

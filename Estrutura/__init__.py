@@ -1,5 +1,0 @@
-#Até o Python 2.7, para que o conjunto de módulos em um diretório fosse considerado um pacote Python, era necessário que um arquivo denominado __init__.py estivesse no diretório com os demais módulos. O arquivo poderia inclusive estar vazio, apenas a sua presença era suficiente. A partir do Python 3.3 não é mais necessário utilizar o __init.__.py para esta finalidade. Devido a um mecanismo denominado “Namespace packages”, o pacote é identificado automaticamente.
-
-#Seja no Python 2.7, seja no Python3.3+, um arquivo __init__.py dentro de um subdiretório será sempre o primeiro a ser executado quando um módulo dentro deste subdiretório for chamado.
-
-#Trata-se de uma posição perfeita para definirmos variáveis globais ao pacote, ou mesmo para definir o acesso a funções nos diversos módulos que constituem o pacote.

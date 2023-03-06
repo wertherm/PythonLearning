@@ -1,2 +1,8 @@
-#Se você não utilizar o termo class no Python, ele irá tratar o arquivo .py como um módulo ou script.
-#Assim perdendo a capacidades de OOP (encapsulamento, herança, polimorfismo).
+#Se não utilizar o termo class, arquivos .py serão tratados como módulos ou scripts. Assim perdendo a capacidades de OOP (encapsulamento, herança, polimorfismo).
+#https://www.w3schools.com/python/python_classes.asp
+
+class MyClass:
+  x = 5
+
+c1 = MyClass()
+print(c1.x)

@@ -1,4 +1,5 @@
+#Mesmo que public void() no C#
 def vazio():
-	pass #É o mesmo que public void() no C#
+	pass
 
 vazio()
