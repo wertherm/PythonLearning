@@ -78,6 +78,7 @@ class TestesBasicos(unittest.TestCase):
         mock_resultadoA = Mock()
         mock_resultadoB = Mock()
 
+        #Faz com que o objeto mockado mantenha o estado das propriedades passadas dentro deste teste.
         mock_funcaoA.return_value = mock_resultadoA
         mock_funcaoB.return_value = mock_resultadoB
 
