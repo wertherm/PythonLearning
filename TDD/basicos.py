@@ -125,3 +125,5 @@ class TestesBasicos(unittest.TestCase):
 
 if __name__ == "__main__": #Esta linha não funciona se executar este código como um módulo, instanciando as classes.
     unittest.main() #unittest.main() fornece uma interface de linha de comando para o script de teste.
+    #No módulo unittest padrão do Python, a ordem de execução dos testes não é garantida.
+    #A filosofia por trás disso é que os testes devem ser independentes uns dos outros e não devem depender da ordem de execução.
