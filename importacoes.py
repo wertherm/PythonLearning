@@ -6,6 +6,10 @@
 
 #Só que no Python 3.3 não é mais necessário utilizar o __init.__.py para esta finalidade. Devido a um mecanismo denominado “Namespace packages”, o pacote é identificado automaticamente.
 #É necessário apenas ter um arquivo .py na raiz do projeto, para poder trabalhar com importações absolutas (from pacote.modulo import classe).
+from OOP.heranca import MyClass
+
+c1 = MyClass()
+print(c1.x)
 #Senão ocorrerão erros de importação, se você executar algum módulo dentro de subdiretórios da raiz do projeto, usando importações absolutas.
 #Caso deseje apenas trabalhar com a importação de um módulo de forma simples, o arquivo .py pode ficar tanto na raiz do projeto, como dentro de subdiretórios.
 
